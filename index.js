@@ -34,7 +34,8 @@ console.log(corFav('verde'));
 
 // 
 let q = 0;
-const beta = document.querySelector('.click').addEventListener('click', () => {
+const beta = document.querySelector('.click');
+    beta.addEventListener('click', () => {
 
     console.log('clicou', q++);
 });
